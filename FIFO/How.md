@@ -1,3 +1,23 @@
+h1 align="center">FIFO Applications</h1>
+<b> What is FIFO?</b>
+<p></p>
+<p><b>FIFO</b> stands for <b>First In, First Out</b>. It is a way of processing and retriving the data. In FIFO system the first element is processed or servered first and the element which comes next to first element will be processed next.</p>
+
+Real Life Example:
+
+  <img src="https://media.geeksforgeeks.org/wp-content/uploads/FIFO.jpg">
+
+  * In a ticket counter people take their ticket and go in an organized manner
+  * In the line (Queue) at the ticket counter the first person get's the ticket first.
+  * The person next to the first person will get the ticket next.
+  * In this manner, the person who enter the queue last will get ticket at last.
+
+This is known as FIFO System.
+
+
+<hr>
+
+
 <p><b>First in, First out</b> system of approach is used in :-</p>
 
 1. Data Structures:<br/>
