@@ -27,7 +27,7 @@ bool checkBalancedParentheses(string exp)
 			s.push(exp[i]);
 		else if (exp[i] == ')' || exp[i] == '}' || exp[i] == ']')
 		{
-			//If closing brack is encountered and the stack is empty we return false, If the top and the closing bracket doesn't match we return false.
+			//If closing bracket is encountered and the stack is empty we return false, If the top and the closing bracket doesn't match we return false.
 			if (s.empty() || !isValidPair(s.top(), exp[i]))
 				return false;
 			else
