@@ -193,7 +193,7 @@ void display()
 		}
 		else 
                 {
-			printf("\n array[%d] has elements -:\n key(%d) and value(%d) \t", i, array[i].key, array[i].value);
+			printf("\n array[%d] has elements -: key(%d) and value(%d) \t", i, array[i].key, array[i].value);
 		}
 	}
 }
@@ -308,7 +308,7 @@ MENU-:
  
 Please enter your choice-: 4
 array[0] has no elements		
-array[1] has no elements	key = 1 and value = 1
+array[1] has elements -: key(1) and value(1)
 array[2] has no elements
 array[3] has no elements
 array[4] has no elements
@@ -317,6 +317,9 @@ array[6] has no elements
 array[7] has no elements
 array[8] has no elements
 array[9] has no elements
+array[10] has no elements
+array[11] has no elements
+array[12] has no elements
 *****************************
 
 Do you want to continue-:(press 1 for yes) 1
