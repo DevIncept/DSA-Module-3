@@ -9,8 +9,8 @@ Real Life Example:
 
 <p></p>
 
-* Imagine a stack of cards containing one card on top of another, starting fromt the bottom.
-* When you remove a card we take out the top card first which has been added to the stack at last/recently.
+* Imagine a stack of cards containing one card on top of another, starting from the bottom.
+* When we remove a card we take out the top card first which has been added to the stack last/recently.
 * Then we remove the next card.
 * Similarly, the last card present in the stack of cards is the first card to enter the stack.
 
