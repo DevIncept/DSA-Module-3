@@ -116,7 +116,9 @@ int if_prime(int n)
         {
 		return 0;
 	}
-	for (i = 2; i < n; i++) 
+	if(n==2)
+		return 1;
+	for (i = 3; i < n; i++) 
         {
 		if (n % i == 0) 
                 {
