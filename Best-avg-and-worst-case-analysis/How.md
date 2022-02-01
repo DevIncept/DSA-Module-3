@@ -31,7 +31,7 @@ print(x, "is present at index",
  
  ## Worst Case Analysis:
  
-For linear search, the worst case happens when we search for an element which is not present in the array. From the above example if the 'X' is not present in the array then search() function will compare it with every element in the array one by one. Therefore the worst case time complexity of linear search would be O(n). 
+For linear search, the worst case happens when we search for an element which is not present in the array or present once at the end of the array. From the above example if the 'X' is not present in the array then search() function will compare it with every element in the array one by one. Therefore the worst case time complexity of linear search would be O(n). 
  
  ## Average Case Analysis:
  
